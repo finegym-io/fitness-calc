@@ -1,0 +1,65 @@
+{
+  "name": "@finegym/fitness-calc",
+  "version": "1.0.0",
+  "description": "Comprehensive fitness and health calculation library. BMI, BMR, TDEE, 1RM, body fat percentage, macro nutrients, heart rate zones, pace/speed conversions, and more.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "fitness",
+    "health",
+    "calculator",
+    "bmi",
+    "bmr",
+    "tdee",
+    "1rm",
+    "one-rep-max",
+    "body-fat",
+    "macros",
+    "calories",
+    "heart-rate",
+    "heart-rate-zones",
+    "pace",
+    "running",
+    "workout",
+    "gym",
+    "nutrition",
+    "body-composition",
+    "exercise",
+    "weight-loss",
+    "muscle-gain"
+  ],
+  "author": "FineGym <dev@finegym.io> (https://www.finegym.io)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FineGymIO/fitness-calc.git"
+  },
+  "homepage": "https://github.com/FineGymIO/fitness-calc#readme",
+  "bugs": {
+    "url": "https://github.com/FineGymIO/fitness-calc/issues"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.0",
+    "vitest": "^2.0.0"
+  }
+}
