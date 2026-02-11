@@ -51,11 +51,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/FineGymIO/fitness-calc.git"
+    "url": "https://github.com/finegym-io/fitness-calc.git"
   },
-  "homepage": "https://github.com/FineGymIO/fitness-calc#readme",
+  "homepage": "https://github.com/finegym-io/fitness-calc#readme",
   "bugs": {
-    "url": "https://github.com/FineGymIO/fitness-calc/issues"
+    "url": "https://github.com/finegym-io/fitness-calc/issues"
   },
   "devDependencies": {
     "tsup": "^8.0.0",
